@@ -622,7 +622,7 @@ const TeamPage731 = () => {
                         </span>
 
                         <span className="team731-title-subtitle">
-                            FIRST Tech Challenge
+                            Always FIRST, Always Strange
                         </span>
 
                     </div>
@@ -1158,11 +1158,12 @@ const TeamPage731 = () => {
 
                     {/* ROBOWEEN */}
 
-                    <div className="team731-outreach-project team731-outreach-card">
+                    <details className="team731-outreach-project team731-outreach-card">
 
-                        <h3>
-                            Roboween Outreach
-                        </h3>
+                        <summary>
+                            <span className="team731-outreach-title">Roboween Outreach</span>
+                            <span className="team731-outreach-toggle" aria-hidden="true">+</span>
+                        </summary>
 
                         <div className="team731-outreach-content">
 
@@ -1198,16 +1199,17 @@ const TeamPage731 = () => {
 
                         </div>
 
-                    </div>
+                    </details>
 
 
                     {/* LIBRARY OUTREACH */}
 
-                    <div className="team731-outreach-project team731-outreach-card">
+                    <details className="team731-outreach-project team731-outreach-card">
 
-                        <h3>
-                            Library Outreach
-                        </h3>
+                        <summary>
+                            <span className="team731-outreach-title">Library Outreach</span>
+                            <span className="team731-outreach-toggle" aria-hidden="true">+</span>
+                        </summary>
 
                         <div className="team731-outreach-content">
 
@@ -1239,16 +1241,17 @@ const TeamPage731 = () => {
 
                         </div>
 
-                    </div>
+                    </details>
 
 
                     {/* BRICKSBORO */}
 
-                    <div className="team731-outreach-project team731-outreach-card">
+                    <details className="team731-outreach-project team731-outreach-card">
 
-                        <h3>
-                            Bricksboro Outreach
-                        </h3>
+                        <summary>
+                            <span className="team731-outreach-title">Bricksboro Outreach</span>
+                            <span className="team731-outreach-toggle" aria-hidden="true">+</span>
+                        </summary>
 
                         <div className="team731-outreach-content">
 
@@ -1283,7 +1286,7 @@ const TeamPage731 = () => {
 
                         </div>
 
-                    </div>
+                    </details>
 
                 </section>
 
